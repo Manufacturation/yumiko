@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+* {
+    box-sizing: border-box;
+}
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end; 
+}  
+mark{
+background-color: black;
+font-size: 40px;
+border-radius: 5px 5px 5px 5px;
+padding: 0.276em;
+}
+
+table{
+  padding-top: 100px;
+  padding-left: 170px;
+
+}
+
+iframe{
+  border-radius: 60px 20px 60px 20px;
+  margin-left: 180px;
+  margin-top: 2px; 
+  padding-top: 1.16em;
+  transition: transform .5s;
+}
+
+iframe:hover {
+  transform: scale(1.40);
+}
+h3{
+  font-size: 40px;
+font-family: Cinzel Decorative;
+text-decoration-style: bold;
+text-shadow: 2px 2px black;
+color: #FF66FF ;
+text-align: center;
+}
+
+img{
+
+  border-radius: 70px 10px 70px 10px;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  
+  background:#00ff99;
+  background: linear-gradient(to right, #0066ff ,#00ff99 ,#0066ff );
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  {
+  background: #000000;
+}
+
+}
+
+a{
+text-shadow: 1px 1px #ccc;
+text-decoration: none;
+
+}
+    .Classical {
+  padding-bottom: 6em;
+  padding-top: 0em;
+  background:#ff40ff;
+  background: linear-gradient(to right, #FFFFFF, #ff40ff 85%, #FF66FF);
+  width: 100%;
+  position:relative;
+  height: auto;
+}
+
+@media screen and (max-width:400px) {
+  .Classical {
+    padding-bottom: 2em;
+  }
+}
+
+.Classical .inner {
+  max-width: 95%;
+  padding: 3em 1em 3em 1em;
+  margin: 0 auto;
+  text-align: center;
+  font-family: brandon-grotesque, brandon-grotesque, Futura, sans-serif;
+  margin-top: 3em;
+}
+
+@media screen and (max-width: 800px) {
+  .Classical .inner {
+    padding: 3em .5em 3em .5em!important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Classical .inner {
+    max-width: 90%!important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Classical .inner {
+    padding: 2em 1em 2em 1em!important;
+    line-height: 23px!important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Classical .inner {
+    padding: 1em 1em 1em 1em!important;
+    margin-top: 2em;
+  }
+}
+
+.Classical .inner .Title {
+  font-family: brandon-grotesque, 'Brandon Grotesque', Futura, sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  font-weight: 500;
+  color: #000000;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  text-decoration: bold;
+}
+
+@media screen and (max-width: 600px) {
+  .Title {
+    font-size: 1.2em!important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Title {
+    font-size: 1em!important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Title {
+    font-size: .9em!important;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .Title {
+    font-size: .8em!important;
+  }
+}
+
+.Classical .inner .Bio-Content {
+  font-family: brandon-grotesque, 'Brandon Grotesque', Futura,'Japanese Brush Master', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.Classical .inner span {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+@media screen and (max-width: 700px) {
+  .Classical .inner span {
+    margin-top: 1.5em!important;
+    margin-bottom: 1.5em!important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Classical .inner span {
+    margin-top: 1.2em!important;
+    margin-bottom: 1.2em!important;
+  }
+}
+
+
+/*STARTS HEADER, TITLE*/
+
+
+.title-boom {
+  display: table;
+  border-radius: 100px 10px 100px 10px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 999;
+  background: radial-gradient(#00ff99, #0066ff);
+}
+
+.title-bang {
+  display: table-row;
+  width: 100%;
+}
+
+.black-board {
+  background-position: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.black-board h1 {
+  display: inline-block;
+  font: 800 1em, sans-serif;
+  font-size:23px ;
+  float: left;
+  text-align: center;
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 673px) {
+  .black-board h1 {
+    font: 800 .7em "proxima-nova", sans-serif;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .black-board h1 {
+    font: 800 .6em "proxima-nova", sans-serif;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .black-board h1 {
+    font: 800 .5em "proxima-nova", sans-serif;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .black-board a {
+    letter-spacing: 6px!important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .black-board a {
+    letter-spacing: 3px!important;
+  }
+}
+
+.black-board h1 a:hover {
+  text-decoration: none;
+  color: #fefd32;
+}
+
+.black-board a {
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  color: #fff;
+}
+
+
+/*ENDS HEADER, TITLE*/
+
+.box {
+  background:#ffbfff;
+  background: linear-gradient(to right, #FF66FF, #ffbfff 85%, #FFFFFF);
+  width: 85%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 700px) {
+  .box {
+    width: 70%!important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .box {
+    width: 85%!important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .box {
+    width: 100%!important;
+  }
+}
+
+
+img {
+  transition: transform .5s;
+}
+
+img:hover {
+  transform: scale(1.55);
+}
+  </style>
+</head>
+<body>
+
+<div class="Classical">
+
+  <header class="title-boom">
+    <div class="title-bang">
+      <div class="black-board">
+        <h1><a >Info</a></h1>
+        <h1><a >Skins</a></h1>
+      </div>
+      <!--END BLACK-BOARD-->
+    </div>
+    <!--END TITLE-BANG-->
+  </header>
+  <!--TITLE-BOOM-->
+<a href="file:///C:/Users/pc/Desktop/brawlhalla/legends.html"><mark style="color: white"><b>Back</b></mark></a>
+
+  <div class="box animated bounceInUp">
+    <div class="inner">
+      <a class="Title"><b>Yumiko "The Kitsune"</b></a>
+      <br>
+      <span class="underline"></span>
+<br>
+      <a class="Bio-Content"><b style="color: #000000; font-family: Japanese Brush Master">“Hattori, do you remember the tale of the wise fox spirit and her giant magical hammer? Yeah, ME NEITHER!” <br>– Koji after a beat down from a newcomer to the Grand Tournament”<br>
+
+“Let me tell you the tale of the blind seamstress and the thousand wolves.”  – Yumiko<br>
+
+ 
+
+Any Valkyrie could see that the blind seamstress was a centuries old fox spirit in disguise. Only the half-Valkyrie saw a great Valhallan. From time immemorial the Japanese village of Aoku sat at peace on the edge of the great northern forest.
+
+Then the forest changed.
+
+The winters grew bitter, and the cold seemed to flow out of the forest itself. From the forest too came great wolves – first in ones and twos and then in great packs. The forest came to be called Kiba, The Fang, and the villagers feared.
+
+To villagers, Yumiko, the blind seamstress, was a happy soul – afraid of dogs, and roused to anger only by shoddy needlework. None ever knew that, at the age of 537, she picked up a bow for the first time and went to war with the monsters of the Kiba.
+
+The first winter, she rescued a toddler from wandering wolf, the second winter she slew a pack of wolves to protect the hibernating Tororu. Year after year, the assault grew, and so did her skill. By the twenty-fifth year, she had defeated a Tengu army, slain a dragon, and realized she must confront this mystery at its source. Weary but determined, she traveled deep into the woods. There she fought the witch Ukionna and broke the bond between Yumiko’s world and the twisted forest corrupting her land. In the final moments of the battle, a valkyrie appeared. Without a word, Yumiko leapt on the flying horse and went happily to sleep.
+
+Yumiko is happy to fight in the tournament, while she senses that she has one more great deed to accomplish, but waits patiently. Yumiko recoils at the sight of Mordex, tinkers with Scarlet in her workshop, and has a quiet bond with the enigmatic Asuri.</b></a></div>
+
+    </div>
+    <!--ENDS INNER-->
+  </div>
+  <!--ENDS BOX-->
+</div>
+<!--ENDS CLASSICAL-->
+<div style="background-image: url('BG_Grove_background.png');background-repeat: no-repeat; height:2294px; ">
+<div class="container">
+  <table align="left"  style="margin-right: 600px ">
+    <tr>
+      <td><h3>Hammer</h3></td>
+      <td><h3>Yumiko</h3></td>
+      <td><h3>Bow</h3></td>
+    </tr>
+    <tr>
+      <td><img src="weapons/yumiko hammer.jpg" height="400">ᅠᅠ</td>
+      <td><img src="yumikoc.png" height="400">ᅠᅠ</td>
+      <td><img src="weapons/yumiko bow.jpg" height="400"></td>
+    </tr>
+    <tr><td><a href="#" name="MicrosoftExcelButton"></a></td>
+    </tr>
+     </table>
+   </div>
+    <iframe src='file:///C:/Users/pc/Desktop/yes/yumiko/yumiko%20excel.htm' width='50%' height='4.8%' frameborder='3' style="background-image:url('realUIBackgroundBitmapp.jpg') ;"></iframe>
+<br>
+<hr>
+<br>
+<hr>
+<br>
+<hr>
+<div class="container">
+<table style="margin-right: 300px ">
+  <tr>
+    <td><img src="arctic fox yumiko.jpg"></div></td><td><img src="weapons/arctic fox yumiko weapons.jpg" height="480" ></div></td><td>ᅠᅠ</td>
+    <td><img src="cursed mask yumiko.jpg"></div></td><td><img src="weapons/cursed mask yumiko weapons.jpg" height="480"></div></td>
+  </tr>
+  <tr><td><br><br></td></tr>
+  <tr>
+    <td><img src="matsuri yumiko.jpg"></td><td><img src="weapons/matsuri yumiko weapons.jpg" height="480" ></td><td>ᅠᅠ</td>
+    <td><img src="tokyo yumiko.jpg"></td><td><img src="weapons/tokyo yumiko weapons.jpg" height="480" ></td>
+  </tr>
+</table>
+</div>
+
+</div>
+</body>
+</html>
